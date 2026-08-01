@@ -15,7 +15,7 @@ function Hero() {
         
       }}
     >
-      <div className="hero">
+      <div  className="hero">
      <h1 className="hero-title">
   Build Modern Software <br />
 For <span>Your Business</span>

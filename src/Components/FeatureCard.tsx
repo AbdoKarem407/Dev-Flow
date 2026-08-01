@@ -35,7 +35,7 @@ const Featured = [
 ];
   return (
     <>
-    <div className="feature-section">
+    <div id="Project" className="feature-section">
         <div className="text-feature">
          <h6 className="text-center mb-3 " style={{fontWeight:"bolder" }}><span>OUR WORK</span></h6>
       <h2 className="text-center mb-3"  style={{fontWeight:"bolder" }}>Featured Projects</h2>

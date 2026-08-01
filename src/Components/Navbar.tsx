@@ -4,7 +4,11 @@ function Navbar() {
 
       <div className="container-fluid">
         <nav className="navbar-brand" >
-         <img className="icon" src={`${import.meta.env.BASE_URL}icon.png`} alt="DevFlow Logo" />
+        <img
+  className="icon"
+  src={`${import.meta.env.BASE_URL}icon.png`}
+  alt="DevFlow Logo"
+/>
           {" "}DevFlow
         </nav>
 
@@ -33,25 +37,25 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Service">
                 Services
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Project">
                 Projects
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link "  href="#">
+              <a className="nav-link "  href="#Apout">
                 About
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Footer">
                 Contact
               </a>
             </li>

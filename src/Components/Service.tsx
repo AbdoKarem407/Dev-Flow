@@ -36,7 +36,7 @@ const services = [
   },
 ];
   return (
-    <section className="container py-5  ">
+    <section id="Service" className="container py-5  ">
       <h6 className="text-center mb-4" style={{fontWeight:"bolder" }}><span>OUR SERVICES</span></h6>
       <h2 className="text-center mb-4"  style={{fontWeight:"bolder" }}>What We DO</h2>
      

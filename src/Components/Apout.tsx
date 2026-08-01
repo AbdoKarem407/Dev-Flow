@@ -11,7 +11,7 @@ interface ApoutProps {
 
 function Apout({ items }: ApoutProps) {
   return (
-<div className="carousel-inner">
+<div  className="carousel-inner">
 
   <div className="carousel-item active">
     <div className="row g-4">

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="dev-footer">
+    <footer id="Footer" className="dev-footer">
       <div className="container">
 
         <div className="footer-section row gy-5">
@@ -8,7 +8,10 @@ function Footer() {
           {/* Logo & Description */}
           <div className="col-lg-4 col-md-6">
             <div className="footer-brand">
-              <img src="/icon.png" alt="DevFlow" />
+    <img
+  src={`${import.meta.env.BASE_URL}icon.png`}
+  alt="DevFlow"
+/>
               <span >DevFlow</span>
             </div>
 

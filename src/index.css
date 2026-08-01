@@ -562,7 +562,7 @@ padding: 14px;
    Mobile
 ========================================= */
 
-@media (min-width: 280px) and (max-width: 575px) {
+@media (min-width: 280px) and (max-width: 576px) {
 
   html,
   body {
@@ -893,7 +893,7 @@ padding: 14px;
     align-items: center;
     text-align: center;
     padding: 0 1.5rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .hero h1 {
@@ -1118,12 +1118,12 @@ padding: 14px;
     align-items: center;
     text-align: center;
     padding: 0 2rem;
-    margin-top: 3.7rem;
+    margin-top: 4rem;
 
   }
 
   .hero h1 {
-    font-size: 2.9rem;
+    font-size: 3rem;
     line-height: 1.2;
     max-width: 730px;
     margin: 0 auto 1.2rem;
@@ -1131,7 +1131,7 @@ padding: 14px;
   }
 
   .hero p {
-    font-size: 1.5rem;
+    font-size: 1.7em;
     line-height: 1.7;
     max-width: 650px;
     margin: 0 auto 1.6rem;
