@@ -4,7 +4,7 @@ function Navbar() {
 
       <div className="container-fluid">
         <nav className="navbar-brand" >
-          <img className="icon" src="/icon.png" alt="DevFlow Logo" />
+         <img className="icon" src={`${import.meta.env.BASE_URL}icon.png`} alt="DevFlow Logo" />
           {" "}DevFlow
         </nav>
 
