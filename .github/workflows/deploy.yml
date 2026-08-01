@@ -34,6 +34,15 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Check dist
+        run: |
+          echo "===== DIST ====="
+          ls -la dist
+          echo "===== DIST ASSETS ====="
+          ls -la dist/assets
+          echo "===== INDEX.HTML ====="
+          cat dist/index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
